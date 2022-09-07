@@ -1,0 +1,42 @@
+{
+  "playlistCollectionJSON": [
+    {
+      "pid": "3a6aeee0-2e19-11ed-89ea-f3de4470da96",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "pltitle": "homers playlist",
+      "songs": [
+        {
+          "sid": "5affbd00-2e34-11ed-95c9-9588ff6ffa9c",
+          "stitle": "tiff",
+          "sartist": "wereyttff",
+          "sduration": 4
+        },
+        {
+          "sid": "a18a41e0-2e99-11ed-9835-49cd5cb8375e",
+          "stitle": "fiffd",
+          "sartist": "fdfd",
+          "sduration": 2
+        },
+        {
+          "sid": "a5ef22a0-2e99-11ed-9835-49cd5cb8375e",
+          "stitle": "gfgd",
+          "sartist": "bfgf",
+          "sduration": 6
+        },
+        {
+          "sid": "abb1bea0-2e99-11ed-9835-49cd5cb8375e",
+          "stitle": "gfgfh",
+          "sartist": "fdbvdgb",
+          "sduration": 5
+        }
+      ],
+      "pduration": 17
+    },
+    {
+      "pid": "53e80c90-2e19-11ed-89ea-f3de4470da96",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "pltitle": "marges playlist",
+      "songs": []
+    }
+  ]
+}

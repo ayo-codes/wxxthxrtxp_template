@@ -1,0 +1,19 @@
+{{> menu}}
+
+<form class="ui stacked segment form" action="/song/{{playlist.pid}}/updatesong/{{song.sid}}" method="POST">
+  <div class="two fields">
+    <div class="field">
+      <label>Title</label>
+      <input placeholder="Title" type="text" name="stitle" value="{{song.stitle}}">
+    </div>
+    <div class="field">
+      <label>Artist</label>
+      <input placeholder="Artist" type="text" name="sartist" value="{{song.sartist}}">
+    </div>
+    <div class="field">
+      <label>Duration</label>
+      <input placeholder="00" type="number" name="sduration" value="{{song.sduration}}">
+    </div>
+  </div>
+  <button class="ui blue submit button">Update Song</button>
+</form>

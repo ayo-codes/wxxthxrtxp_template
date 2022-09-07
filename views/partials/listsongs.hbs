@@ -1,0 +1,36 @@
+<table class ="ui table">
+  <thead>
+  <tr>
+    <th>Song</th>
+    <th>Artist</th>
+    <th>Duration</th>
+    <th></th>
+    <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each playlist.songs}}
+  <tr>
+    <td>
+      {{stitle}}
+    </td>
+    <td>
+      {{sartist}}
+      </td>
+    <td>
+      {{sduration}}
+    </td>
+    <td>
+      <a href="/song/{{../playlist.pid}}/editsong/{{sid}}" class="ui icon button">
+        <i class=" pencil alternate icon"></i>
+      </a>
+    </td>
+    <td>
+      <a href="/playlist/{{../playlist.pid}}/deletesong/{{sid}}" class = "ui icon button">
+        <i class=" red large trash alternate outline icon"></i>
+      </a>
+    </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

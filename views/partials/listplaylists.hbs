@@ -1,0 +1,15 @@
+{{#each playlists}} {{!--this creates a for loop for each playlist--}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{pltitle}} {{!--this pulls the data from the playlists--}}
+
+    </h2>
+    <p>
+      Total Duration : {{pduration}} {{!-- this pulls the data from the playlist duration--}}
+    </p>
+    <a href = "/playlist/{{pid}}" class = "ui icon button"> <i class=" black large folder open icon"></i> </a>
+    <br>
+    <br>
+    <a href = "/dashboard/deleteplaylist/{{pid}}" class ="ui icon button"><i class=" red large trash alternate outline icon"></i> </a>
+  </section>
+{{/each}}
